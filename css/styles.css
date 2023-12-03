@@ -135,6 +135,8 @@ cursor: pointer;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .str-text{
     font-size: 16px;
@@ -146,14 +148,7 @@ cursor: pointer;
 .team-list > li {
   background: #fff;
 }
-.team-list-item > p {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
-}
+
 .team-list-item {
   color: #2e2f42;
   font-family: Roboto;
@@ -175,6 +170,8 @@ cursor: pointer;
   font-weight: 700;
   line-height: 1.11; 
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   
 }
 .portfolio-list-item{
@@ -204,7 +201,7 @@ cursor: pointer;
   background: #2e2f42;
 }
 .logo-link-footer {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
