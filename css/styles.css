@@ -38,7 +38,7 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-studio:hover{
+.nav-studio:hover:focus{
     display: flex;
 width: 48px;
 height: 52px;
@@ -63,7 +63,7 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-port:hover{
+.nav-port:hover :focus{
     display: flex;
 width: 66px;
 height: 52px;
@@ -90,7 +90,7 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-contacts:hover{
+.nav-contacts:hover :focus{
     display: flex;
     width: 66px;
     height: 52px;
@@ -175,7 +175,7 @@ cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.order-button:hover:focus {
+.order-button:hover :focus {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -189,12 +189,18 @@ cursor: pointer;
 
 .strength {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .strength .str-text {
-  color: #2e2f42;
+  color: #434455 ;
   display: flex;
   width: 264px;
   flex-direction: column;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
@@ -207,6 +213,12 @@ cursor: pointer;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align:center;
+}
+.str-text{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 .team-list > li {
