@@ -82,8 +82,8 @@ letter-spacing: 0.32px;
 .logo-link {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -91,9 +91,9 @@ letter-spacing: 0.32px;
 .logo-link-tile {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
