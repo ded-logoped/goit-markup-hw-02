@@ -145,12 +145,11 @@ cursor: pointer;
     color: #434455;
 }
 
-.team-list > li {
-  background: #fff;
-}
+
 
 .team-list-item {
   color: #2e2f42;
+  background-color: #fff;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
