@@ -66,24 +66,16 @@ color:#404bbf;
   letter-spacing: 0.32px;
   font-style: normal;
 }
-.mail {
+.connection {
 color: #434455
 }
-.mail:hover{
+.connection:hover{
 color: #404bbf;
 }
-.mail:focus{
+.connection:focus{
     color: #404bbf;
 }
-.phone{
-color: #434455;
-}
-.phone:hover{
-    color: #404bbf;
-}
-.phone:focus{
-    color: #404bbf;
-}
+
 
    
 
@@ -96,6 +88,7 @@ color: #434455;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .order-button {
@@ -106,13 +99,13 @@ cursor: pointer;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .order-button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .order-button:focus{
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .strength {
@@ -126,6 +119,12 @@ cursor: pointer;
   color: #434455 ;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.strongs-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
@@ -147,11 +146,11 @@ cursor: pointer;
   background: #fff;
 }
 .team-list-item > p {
-  color: #2e2f42;
+  color: #434455;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.4px;
 }
 .team-list-item > h3 {
@@ -161,6 +160,8 @@ cursor: pointer;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio {
