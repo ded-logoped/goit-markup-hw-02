@@ -18,7 +18,6 @@ ol {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -28,17 +27,15 @@ ol {
 width: 48px;
 height: 48px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color: #2E2F42;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-studio:hover:focus{
+.nav-studio:hover .nav-studio:focus{
     display: flex;
 width: 48px;
 height: 52px;
@@ -63,7 +60,7 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-port:hover :focus{
+.nav-port:hover .nav-port:focus{
     display: flex;
 width: 66px;
 height: 52px;
@@ -90,7 +87,7 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
-.nav-contacts:hover :focus{
+.nav-contacts:hover .nav-contacts:focus{
     display: flex;
     width: 66px;
     height: 52px;
@@ -175,7 +172,7 @@ cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.order-button:hover :focus {
+.order-button:hover .order-button:focus {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
