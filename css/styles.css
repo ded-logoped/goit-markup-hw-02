@@ -21,60 +21,18 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-studio{
-    
-width: 48px;
-height: 48px;
+.navi-item{
 color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-.nav-studio:hover{
-width: 48px;
-height: 52px;
+.navi-item:hover{
 color:#404bbf;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
 }
-.nav-port{
-width: 66px;
-height: 48px;
-color: #2e2f42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-}
-.nav-port:hover{
-width: 66px;
-height: 52px;
-color:#404bbf;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-}
-.nav-contacts{
-width: 66px;
-height: 48px;
-color:#2e2f42;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-}
-.nav-contacts:hover{
-    color:#404bbf;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
+.navi-item:focus{
+    color: #2e2f42;
 }
 
 .logo-link {
