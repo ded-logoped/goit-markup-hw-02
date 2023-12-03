@@ -20,72 +20,72 @@ ol {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .nav-studio{
     
 width: 48px;
 height: 48px;
-color: #2E2F42;
+color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .nav-studio:hover{
 width: 48px;
 height: 52px;
-color:#404BBF;
+color:#404bbf;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .nav-port{
 width: 66px;
 height: 48px;
-color: #2E2F42;
+color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .nav-port:hover{
 width: 66px;
 height: 52px;
-color:#404BBF;
+color:#404bbf;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .nav-contacts{
 width: 66px;
 height: 48px;
-color: var#2E2F42;
+color:#2e2f42;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .nav-contacts:hover{
-    color:#404BBF;
+    color:#404bbf;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .logo-link {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-link:hover{
@@ -94,11 +94,11 @@ letter-spacing: 0.32px;
 .logo-link-tile {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .contacts {
@@ -106,13 +106,29 @@ letter-spacing: 0.32px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
-a {
+.mail {
 color: #434455
 }
-a:hover{
-color: #404BBF;
+.mail:hover{
+color: #404bbf;
 }
+.mail:focus{
+    color: #404bbf;
+}
+.phone{
+color: #434455;
+}
+.phone:hover{
+    color: #404bbf;
+}
+.phone:focus{
+    color: #404bbf;
+}
+
+   
+
 .hero {
   background-color: #2e2f42;
 }
