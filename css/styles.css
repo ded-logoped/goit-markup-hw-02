@@ -32,7 +32,7 @@ letter-spacing: 0.02em;
 color:#404bbf;
 }
 .navi-item:focus{
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .logo-link {
@@ -42,7 +42,6 @@ color:#404bbf;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .logo-link:hover{
     color: #404bbf ;
@@ -55,7 +54,9 @@ color:#404bbf;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+.strongs{
+    text-align: center;
 }
 .contacts {
   font-size: 16px;
@@ -106,13 +107,11 @@ cursor: pointer;
   letter-spacing: 0.64px;
   background: #4d5ae5;
 }
-.order-button:hover .order-button:focus {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
+.order-button:hover {
   background: #404bbf;
+}
+.order-button:focus{
+    color: #404bbf;
 }
 
 .strength {
@@ -136,7 +135,6 @@ cursor: pointer;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 .str-text{
     font-size: 16px;
@@ -174,7 +172,6 @@ cursor: pointer;
   font-weight: 700;
   line-height: 1.11; 
   letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 .portfolio-list > li {
   width: 360px;
@@ -209,7 +206,6 @@ cursor: pointer;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-link-tile-footer {
