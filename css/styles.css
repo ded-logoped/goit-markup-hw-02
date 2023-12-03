@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #434455;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -27,7 +27,6 @@ ol {
     display: flex;
 width: 48px;
 height: 48px;
-padding-bottom: 24px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
@@ -43,9 +42,6 @@ letter-spacing: 0.32px;
     display: flex;
 width: 48px;
 height: 52px;
-padding-bottom: 28px;
-flex-direction: column;
-align-items: center;
 flex-shrink: 0;
 color:#404BBF;
 font-family: Roboto;
@@ -59,14 +55,10 @@ letter-spacing: 0.32px;
     display: flex;
 width: 66px;
 height: 48px;
-padding-bottom: 24px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color: var#2E2F42;
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
@@ -75,9 +67,7 @@ letter-spacing: 0.32px;
     display: flex;
 width: 66px;
 height: 52px;
-padding-bottom: 28px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color:#404BBF;
 font-family: Roboto;
@@ -91,14 +81,11 @@ letter-spacing: 0.32px;
     display: flex;
 width: 66px;
 height: 48px;
-padding-bottom: 24px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color: var#2E2F42;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
@@ -107,14 +94,10 @@ letter-spacing: 0.32px;
     display: flex;
     width: 66px;
     height: 52px;
-    padding-bottom: 28px;
     justify-content: center;
-    align-items: center;
     flex-shrink: 0;
     color:#404BBF;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.32px;
@@ -122,26 +105,24 @@ letter-spacing: 0.32px;
 
 .logo-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .logo-link-tile {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .contacts {
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +134,6 @@ a {
 width: 153px;
 height: 24px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color: #434455
 }
@@ -162,7 +142,6 @@ a:hover{
 width: 153px;
 height: 24px;
 justify-content: center;
-align-items: center;
 flex-shrink: 0;
 color: #404BBF;
 }
@@ -184,35 +163,25 @@ color: #404BBF;
 }
 
 .order-button {
+    font-family: "Roboto", sans-serif;
   color: #fff;
 cursor: pointer;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.order-button:hover {
+.order-button:hover:focus {
   color: #fff;
-
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
   background: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -226,16 +195,12 @@ cursor: pointer;
   display: flex;
   width: 264px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
 }
 .team {
   background-color: #f4f4fd;
 }
 .team-header {
   color: #2e2f42;
-  text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -246,11 +211,8 @@ cursor: pointer;
 
 .team-list > li {
   display: inline-flex;
-  padding-bottom: 32px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 32px;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -296,12 +258,8 @@ cursor: pointer;
   display: flex;
   width: 360px;
   height: 420px;
-  padding-bottom: 32px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
-  border: 1px solid #e7e9fc;
   background: #fff;
 }
 .port-desc {
@@ -309,9 +267,6 @@ cursor: pointer;
   padding: 0px 16px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
 }
 .port-desc > h3 {
   color: #2e2f42;
@@ -324,9 +279,7 @@ cursor: pointer;
 }
 .port-desc > p {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -340,7 +293,6 @@ cursor: pointer;
 .logo-link-footer {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.54px;
